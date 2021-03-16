@@ -3,633 +3,1843 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		"SwiftGenius::SwiftGeniusPackageTests::ProductTarget" /* SwiftGeniusPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_343 /* Build configuration list for PBXAggregateTarget "SwiftGeniusPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_346 /* PBXTargetDependency */,
+			);
+			name = SwiftGeniusPackageTests;
+			productName = SwiftGeniusPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		9660112C2037E26C0035FE96 /* SwiftGenius.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966011222037E26C0035FE96 /* SwiftGenius.framework */; };
-		966011332037E26C0035FE96 /* SwiftGenius.h in Headers */ = {isa = PBXBuildFile; fileRef = 966011252037E26C0035FE96 /* SwiftGenius.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9660113F2037F3800035FE96 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9660113D2037F3800035FE96 /* PromiseKit.framework */; };
-		966011402037F3800035FE96 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9660113E2037F3800035FE96 /* OAuthSwift.framework */; };
-		966011592037F3D30035FE96 /* GeniusSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011412037F3CC0035FE96 /* GeniusSearch.swift */; };
-		9660115A2037F3D30035FE96 /* get-songs-200.json in Resources */ = {isa = PBXBuildFile; fileRef = 966011442037F3CD0035FE96 /* get-songs-200.json */; };
-		9660115B2037F3D30035FE96 /* get-web-pages-200.json in Resources */ = {isa = PBXBuildFile; fileRef = 966011452037F3CD0035FE96 /* get-web-pages-200.json */; };
-		9660115C2037F3D30035FE96 /* get-artists-200.json in Resources */ = {isa = PBXBuildFile; fileRef = 966011462037F3CD0035FE96 /* get-artists-200.json */; };
-		9660115D2037F3D30035FE96 /* get-search-200.json in Resources */ = {isa = PBXBuildFile; fileRef = 966011472037F3CD0035FE96 /* get-search-200.json */; };
-		9660115E2037F3D30035FE96 /* get-account-200.json in Resources */ = {isa = PBXBuildFile; fileRef = 966011482037F3CD0035FE96 /* get-account-200.json */; };
-		9660115F2037F3D30035FE96 /* get-annotations-200.json in Resources */ = {isa = PBXBuildFile; fileRef = 966011492037F3CD0035FE96 /* get-annotations-200.json */; };
-		966011602037F3D30035FE96 /* get-referents-200.json in Resources */ = {isa = PBXBuildFile; fileRef = 9660114A2037F3CD0035FE96 /* get-referents-200.json */; };
-		966011612037F3D30035FE96 /* get-artist-songs-200.json in Resources */ = {isa = PBXBuildFile; fileRef = 9660114B2037F3CD0035FE96 /* get-artist-songs-200.json */; };
-		966011622037F3D30035FE96 /* xx in Resources */ = {isa = PBXBuildFile; fileRef = 9660114C2037F3CD0035FE96 /* xx */; };
-		966011632037F3D30035FE96 /* MockGenius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660114D2037F3CD0035FE96 /* MockGenius.swift */; };
-		966011642037F3D30035FE96 /* GeniusAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660114E2037F3CD0035FE96 /* GeniusAnnotation.swift */; };
-		966011652037F3D30035FE96 /* GeniusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660114F2037F3CE0035FE96 /* GeniusResponse.swift */; };
-		966011662037F3D30035FE96 /* OtherTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011502037F3CE0035FE96 /* OtherTypes.swift */; };
-		966011672037F3D30035FE96 /* GeniusReferent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011512037F3CF0035FE96 /* GeniusReferent.swift */; };
-		966011682037F3D30035FE96 /* Genius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011522037F3D00035FE96 /* Genius.swift */; };
-		966011692037F3D30035FE96 /* GeniusAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011532037F3D00035FE96 /* GeniusAccount.swift */; };
-		9660116A2037F3D30035FE96 /* GeniusWebPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011542037F3D10035FE96 /* GeniusWebPage.swift */; };
-		9660116B2037F3D30035FE96 /* GeniusArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011552037F3D10035FE96 /* GeniusArtist.swift */; };
-		9660116C2037F3D30035FE96 /* GeniusSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011562037F3D20035FE96 /* GeniusSong.swift */; };
-		9660116D2037F3D30035FE96 /* GeniusArtistSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011572037F3D20035FE96 /* GeniusArtistSongs.swift */; };
-		9660116E2037F3D30035FE96 /* GeniusClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011582037F3D30035FE96 /* GeniusClient.swift */; };
-		9660117F2037F41D0035FE96 /* MockGeniusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011752037F4170035FE96 /* MockGeniusTests.swift */; };
-		966011802037F41D0035FE96 /* GeniusSongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011762037F4180035FE96 /* GeniusSongTests.swift */; };
-		966011812037F41D0035FE96 /* GeniusAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011772037F4180035FE96 /* GeniusAccountTests.swift */; };
-		966011822037F41D0035FE96 /* GeniusArtistSongsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011782037F4190035FE96 /* GeniusArtistSongsTest.swift */; };
-		966011832037F41D0035FE96 /* GeniusArtistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011792037F4190035FE96 /* GeniusArtistTests.swift */; };
-		966011842037F41D0035FE96 /* GeniusSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660117A2037F41A0035FE96 /* GeniusSearchTests.swift */; };
-		966011852037F41D0035FE96 /* GeniusReferentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660117B2037F41B0035FE96 /* GeniusReferentTests.swift */; };
-		966011862037F41D0035FE96 /* GeniusClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660117C2037F41B0035FE96 /* GeniusClientTests.swift */; };
-		966011872037F41D0035FE96 /* GeniusTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660117D2037F41C0035FE96 /* GeniusTestBase.swift */; };
-		966011882037F41D0035FE96 /* GeniusAnnotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660117E2037F41C0035FE96 /* GeniusAnnotationTests.swift */; };
-		9660118C2037F42C0035FE96 /* JSONTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966011892037F42A0035FE96 /* JSONTestBase.swift */; };
-		9660118D2037F42C0035FE96 /* ClientTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660118A2037F42B0035FE96 /* ClientTestBase.swift */; };
-		9660118F203886430035FE96 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9660113E2037F3800035FE96 /* OAuthSwift.framework */; };
-		96601190203886430035FE96 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9660113D2037F3800035FE96 /* PromiseKit.framework */; };
-		9689839D203D158A00DE77BC /* JSONClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9689839C203D158A00DE77BC /* JSONClient.framework */; };
+		OBJ_165 /* AuthorizedJSONClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* AuthorizedJSONClient.swift */; };
+		OBJ_166 /* JSONClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* JSONClient.swift */; };
+		OBJ_167 /* MockClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* MockClient.swift */; };
+		OBJ_168 /* OAuth1JSONClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* OAuth1JSONClient.swift */; };
+		OBJ_169 /* OAuth2JSONClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* OAuth2JSONClient.swift */; };
+		OBJ_171 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PromiseKit::PromiseKit::Product" /* PromiseKit.framework */; };
+		OBJ_172 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "OAuthSwift::OAuthSwift::Product" /* OAuthSwift.framework */; };
+		OBJ_173 /* Stylobate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Stylobate::Stylobate::Product" /* Stylobate.framework */; };
+		OBJ_185 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Package.swift */; };
+		OBJ_190 /* Collection+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Collection+OAuthSwift.swift */; };
+		OBJ_191 /* Data+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Data+OAuthSwift.swift */; };
+		OBJ_192 /* Dictionary+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Dictionary+OAuthSwift.swift */; };
+		OBJ_193 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* HMAC.swift */; };
+		OBJ_194 /* ASWebAuthenticationURLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* ASWebAuthenticationURLHandler.swift */; };
+		OBJ_195 /* ExtensionContextURLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* ExtensionContextURLHandler.swift */; };
+		OBJ_196 /* OAuthSwiftOpenURLExternally.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* OAuthSwiftOpenURLExternally.swift */; };
+		OBJ_197 /* OAuthSwiftURLHandlerProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* OAuthSwiftURLHandlerProxy.swift */; };
+		OBJ_198 /* OAuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* OAuthWebViewController.swift */; };
+		OBJ_199 /* SFAuthenticationURLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* SFAuthenticationURLHandler.swift */; };
+		OBJ_200 /* SafariURLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* SafariURLHandler.swift */; };
+		OBJ_201 /* Int+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* Int+OAuthSwift.swift */; };
+		OBJ_202 /* NSError+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* NSError+OAuthSwift.swift */; };
+		OBJ_203 /* NotificationCenter+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* NotificationCenter+OAuthSwift.swift */; };
+		OBJ_204 /* OAuth1Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* OAuth1Swift.swift */; };
+		OBJ_205 /* OAuth2Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* OAuth2Swift.swift */; };
+		OBJ_206 /* OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* OAuthSwift.swift */; };
+		OBJ_207 /* OAuthSwiftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* OAuthSwiftClient.swift */; };
+		OBJ_208 /* OAuthSwiftCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* OAuthSwiftCredential.swift */; };
+		OBJ_209 /* OAuthSwiftError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* OAuthSwiftError.swift */; };
+		OBJ_210 /* OAuthSwiftHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* OAuthSwiftHTTPRequest.swift */; };
+		OBJ_211 /* OAuthSwiftMultipartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* OAuthSwiftMultipartData.swift */; };
+		OBJ_212 /* OAuthSwiftResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* OAuthSwiftResponse.swift */; };
+		OBJ_213 /* OAuthSwiftURLHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* OAuthSwiftURLHandlerType.swift */; };
+		OBJ_214 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* SHA1.swift */; };
+		OBJ_215 /* String+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* String+OAuthSwift.swift */; };
+		OBJ_216 /* UIApplication+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* UIApplication+OAuthSwift.swift */; };
+		OBJ_217 /* URL+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* URL+OAuthSwift.swift */; };
+		OBJ_218 /* URLConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* URLConvertible.swift */; };
+		OBJ_219 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* Utils.swift */; };
+		OBJ_226 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Package.swift */; };
+		OBJ_231 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* Box.swift */; };
+		OBJ_232 /* Catchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* Catchable.swift */; };
+		OBJ_233 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* Configuration.swift */; };
+		OBJ_234 /* CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* CustomStringConvertible.swift */; };
+		OBJ_235 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* Error.swift */; };
+		OBJ_236 /* Guarantee.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* Guarantee.swift */; };
+		OBJ_237 /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* LogEvent.swift */; };
+		OBJ_238 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* Promise.swift */; };
+		OBJ_239 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_141 /* Resolver.swift */; };
+		OBJ_240 /* Thenable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_142 /* Thenable.swift */; };
+		OBJ_241 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* after.swift */; };
+		OBJ_242 /* firstly.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_144 /* firstly.swift */; };
+		OBJ_243 /* hang.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* hang.swift */; };
+		OBJ_244 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_146 /* race.swift */; };
+		OBJ_245 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_147 /* when.swift */; };
+		OBJ_252 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* Package.swift */; };
+		OBJ_257 /* CollectionAndTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* CollectionAndTableViewController.swift */; };
+		OBJ_258 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* Controller.swift */; };
+		OBJ_259 /* UIViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* UIViewController+Alerts.swift */; };
+		OBJ_260 /* FetchedResultsCollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* FetchedResultsCollectionModel.swift */; };
+		OBJ_261 /* FetchedResultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* FetchedResultsModel.swift */; };
+		OBJ_262 /* FetchedResultsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* FetchedResultsProvider.swift */; };
+		OBJ_263 /* FetchedResultsTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* FetchedResultsTableModel.swift */; };
+		OBJ_264 /* KeyPath+SortDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* KeyPath+SortDescriptor.swift */; };
+		OBJ_265 /* ManagedObjectContextContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* ManagedObjectContextContainer.swift */; };
+		OBJ_266 /* NSManagedObject+FetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* NSManagedObject+FetchRequest.swift */; };
+		OBJ_267 /* NSManagedObjectContext+ObjectCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* NSManagedObjectContext+ObjectCreator.swift */; };
+		OBJ_268 /* NSPredicate+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* NSPredicate+Operators.swift */; };
+		OBJ_269 /* Codable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* Codable+Utils.swift */; };
+		OBJ_270 /* JSONUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* JSONUtils.swift */; };
+		OBJ_271 /* CollectionAndTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* CollectionAndTableModel.swift */; };
+		OBJ_272 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* Strings.swift */; };
+		OBJ_273 /* Stylobate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_100 /* Stylobate.swift */; };
+		OBJ_274 /* CLLocationCoordinate2D+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* CLLocationCoordinate2D+Formatting.swift */; };
+		OBJ_275 /* CustomOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* CustomOperators.swift */; };
+		OBJ_276 /* Date+Trigonometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* Date+Trigonometry.swift */; };
+		OBJ_277 /* Int+Rubyish.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* Int+Rubyish.swift */; };
+		OBJ_278 /* LifecycleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* LifecycleError.swift */; };
+		OBJ_279 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* Settings.swift */; };
+		OBJ_280 /* TimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* TimeIntervalExtensions.swift */; };
+		OBJ_281 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* UserDefault.swift */; };
+		OBJ_282 /* BusyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* BusyView.swift */; };
+		OBJ_283 /* CALayer+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* CALayer+Geometry.swift */; };
+		OBJ_284 /* CollectionAndTableDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* CollectionAndTableDisplay.swift */; };
+		OBJ_285 /* DegreesMinutesSecondsFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* DegreesMinutesSecondsFormatter.swift */; };
+		OBJ_286 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* Display.swift */; };
+		OBJ_287 /* FormattedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* FormattedLabel.swift */; };
+		OBJ_288 /* HidingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* HidingImageView.swift */; };
+		OBJ_289 /* HidingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* HidingLabel.swift */; };
+		OBJ_290 /* MissingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* MissingCell.swift */; };
+		OBJ_291 /* MultilineTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* MultilineTextView.swift */; };
+		OBJ_292 /* ProgressBusyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* ProgressBusyView.swift */; };
+		OBJ_293 /* SpinnerBusyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* SpinnerBusyView.swift */; };
+		OBJ_294 /* TextResizingPinchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* TextResizingPinchGestureRecognizer.swift */; };
+		OBJ_295 /* ToggleButtonStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* ToggleButtonStackView.swift */; };
+		OBJ_296 /* ToggleStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* ToggleStackView.swift */; };
+		OBJ_297 /* UIBezierPath+Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* UIBezierPath+Pie.swift */; };
+		OBJ_298 /* UIView+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* UIView+Autolayout.swift */; };
+		OBJ_299 /* UIView+Summoner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* UIView+Summoner.swift */; };
+		OBJ_300 /* VideoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* VideoPreview.swift */; };
+		OBJ_301 /* VisualIndicatorBusyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* VisualIndicatorBusyView.swift */; };
+		OBJ_308 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* Package.swift */; };
+		OBJ_314 /* Genius.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Genius.swift */; };
+		OBJ_315 /* GeniusAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* GeniusAccount.swift */; };
+		OBJ_316 /* GeniusAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* GeniusAnnotation.swift */; };
+		OBJ_317 /* GeniusArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* GeniusArtist.swift */; };
+		OBJ_318 /* GeniusArtistSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* GeniusArtistSongs.swift */; };
+		OBJ_319 /* GeniusClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* GeniusClient.swift */; };
+		OBJ_320 /* GeniusReferent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* GeniusReferent.swift */; };
+		OBJ_321 /* GeniusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* GeniusResponse.swift */; };
+		OBJ_322 /* GeniusSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* GeniusSearch.swift */; };
+		OBJ_323 /* GeniusSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* GeniusSong.swift */; };
+		OBJ_324 /* GeniusWebPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* GeniusWebPage.swift */; };
+		OBJ_325 /* MockGenius.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* MockGenius.swift */; };
+		OBJ_326 /* OtherTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* OtherTypes.swift */; };
+		OBJ_328 /* JSONClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "JSONClient::JSONClient::Product" /* JSONClient.framework */; };
+		OBJ_329 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PromiseKit::PromiseKit::Product" /* PromiseKit.framework */; };
+		OBJ_330 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "OAuthSwift::OAuthSwift::Product" /* OAuthSwift.framework */; };
+		OBJ_331 /* Stylobate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Stylobate::Stylobate::Product" /* Stylobate.framework */; };
+		OBJ_341 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_352 /* ClientTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* ClientTestBase.swift */; };
+		OBJ_353 /* GeniusAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* GeniusAccountTests.swift */; };
+		OBJ_354 /* GeniusAnnotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* GeniusAnnotationTests.swift */; };
+		OBJ_355 /* GeniusArtistSongsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* GeniusArtistSongsTest.swift */; };
+		OBJ_356 /* GeniusArtistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* GeniusArtistTests.swift */; };
+		OBJ_357 /* GeniusClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* GeniusClientTests.swift */; };
+		OBJ_358 /* GeniusReferentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* GeniusReferentTests.swift */; };
+		OBJ_359 /* GeniusSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* GeniusSearchTests.swift */; };
+		OBJ_360 /* GeniusSongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* GeniusSongTests.swift */; };
+		OBJ_361 /* GeniusTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* GeniusTestBase.swift */; };
+		OBJ_362 /* JSONTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* JSONTestBase.swift */; };
+		OBJ_363 /* MockGeniusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* MockGeniusTests.swift */; };
+		OBJ_365 /* SwiftGenius.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGenius::SwiftGenius::Product" /* SwiftGenius.framework */; };
+		OBJ_366 /* JSONClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "JSONClient::JSONClient::Product" /* JSONClient.framework */; };
+		OBJ_367 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PromiseKit::PromiseKit::Product" /* PromiseKit.framework */; };
+		OBJ_368 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "OAuthSwift::OAuthSwift::Product" /* OAuthSwift.framework */; };
+		OBJ_369 /* Stylobate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Stylobate::Stylobate::Product" /* Stylobate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9660112D2037E26C0035FE96 /* PBXContainerItemProxy */ = {
+		E95DE1E526010506004BF7C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 966011192037E26C0035FE96 /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 966011212037E26C0035FE96;
+			remoteGlobalIDString = "JSONClient::JSONClient";
+			remoteInfo = JSONClient;
+		};
+		E95DE1E626010506004BF7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PromiseKit::PromiseKit";
+			remoteInfo = PromiseKit;
+		};
+		E95DE1E726010506004BF7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "OAuthSwift::OAuthSwift";
+			remoteInfo = OAuthSwift;
+		};
+		E95DE1E826010506004BF7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Stylobate::Stylobate";
+			remoteInfo = Stylobate;
+		};
+		E95DE1E926010506004BF7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PromiseKit::PromiseKit";
+			remoteInfo = PromiseKit;
+		};
+		E95DE1EA26010506004BF7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "OAuthSwift::OAuthSwift";
+			remoteInfo = OAuthSwift;
+		};
+		E95DE1EB26010506004BF7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Stylobate::Stylobate";
+			remoteInfo = Stylobate;
+		};
+		E95DE1EC26010507004BF7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftGenius::SwiftGenius";
 			remoteInfo = SwiftGenius;
+		};
+		E95DE1ED26010507004BF7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "JSONClient::JSONClient";
+			remoteInfo = JSONClient;
+		};
+		E95DE1EE26010507004BF7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PromiseKit::PromiseKit";
+			remoteInfo = PromiseKit;
+		};
+		E95DE1EF26010507004BF7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "OAuthSwift::OAuthSwift";
+			remoteInfo = OAuthSwift;
+		};
+		E95DE1F026010507004BF7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Stylobate::Stylobate";
+			remoteInfo = Stylobate;
+		};
+		E95DE1FB26010508004BF7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftGenius::SwiftGeniusTests";
+			remoteInfo = SwiftGeniusTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		966011222037E26C0035FE96 /* SwiftGenius.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftGenius.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		966011252037E26C0035FE96 /* SwiftGenius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftGenius.h; sourceTree = "<group>"; };
-		966011262037E26C0035FE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9660112B2037E26C0035FE96 /* SwiftGeniusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGeniusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		966011322037E26C0035FE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9660113D2037F3800035FE96 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
-		9660113E2037F3800035FE96 /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = Carthage/Build/iOS/OAuthSwift.framework; sourceTree = "<group>"; };
-		966011412037F3CC0035FE96 /* GeniusSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusSearch.swift; sourceTree = "<group>"; };
-		966011442037F3CD0035FE96 /* get-songs-200.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-songs-200.json"; sourceTree = "<group>"; };
-		966011452037F3CD0035FE96 /* get-web-pages-200.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-web-pages-200.json"; sourceTree = "<group>"; };
-		966011462037F3CD0035FE96 /* get-artists-200.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-artists-200.json"; sourceTree = "<group>"; };
-		966011472037F3CD0035FE96 /* get-search-200.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-search-200.json"; sourceTree = "<group>"; };
-		966011482037F3CD0035FE96 /* get-account-200.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-account-200.json"; sourceTree = "<group>"; };
-		966011492037F3CD0035FE96 /* get-annotations-200.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-annotations-200.json"; sourceTree = "<group>"; };
-		9660114A2037F3CD0035FE96 /* get-referents-200.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-referents-200.json"; sourceTree = "<group>"; };
-		9660114B2037F3CD0035FE96 /* get-artist-songs-200.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-artist-songs-200.json"; sourceTree = "<group>"; };
-		9660114C2037F3CD0035FE96 /* xx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xx; sourceTree = "<group>"; };
-		9660114D2037F3CD0035FE96 /* MockGenius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockGenius.swift; sourceTree = "<group>"; };
-		9660114E2037F3CD0035FE96 /* GeniusAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusAnnotation.swift; sourceTree = "<group>"; };
-		9660114F2037F3CE0035FE96 /* GeniusResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusResponse.swift; sourceTree = "<group>"; };
-		966011502037F3CE0035FE96 /* OtherTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherTypes.swift; sourceTree = "<group>"; };
-		966011512037F3CF0035FE96 /* GeniusReferent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusReferent.swift; sourceTree = "<group>"; };
-		966011522037F3D00035FE96 /* Genius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genius.swift; sourceTree = "<group>"; };
-		966011532037F3D00035FE96 /* GeniusAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusAccount.swift; sourceTree = "<group>"; };
-		966011542037F3D10035FE96 /* GeniusWebPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusWebPage.swift; sourceTree = "<group>"; };
-		966011552037F3D10035FE96 /* GeniusArtist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusArtist.swift; sourceTree = "<group>"; };
-		966011562037F3D20035FE96 /* GeniusSong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusSong.swift; sourceTree = "<group>"; };
-		966011572037F3D20035FE96 /* GeniusArtistSongs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusArtistSongs.swift; sourceTree = "<group>"; };
-		966011582037F3D30035FE96 /* GeniusClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusClient.swift; sourceTree = "<group>"; };
-		966011752037F4170035FE96 /* MockGeniusTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockGeniusTests.swift; sourceTree = "<group>"; };
-		966011762037F4180035FE96 /* GeniusSongTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusSongTests.swift; sourceTree = "<group>"; };
-		966011772037F4180035FE96 /* GeniusAccountTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusAccountTests.swift; sourceTree = "<group>"; };
-		966011782037F4190035FE96 /* GeniusArtistSongsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusArtistSongsTest.swift; sourceTree = "<group>"; };
-		966011792037F4190035FE96 /* GeniusArtistTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusArtistTests.swift; sourceTree = "<group>"; };
-		9660117A2037F41A0035FE96 /* GeniusSearchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusSearchTests.swift; sourceTree = "<group>"; };
-		9660117B2037F41B0035FE96 /* GeniusReferentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusReferentTests.swift; sourceTree = "<group>"; };
-		9660117C2037F41B0035FE96 /* GeniusClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusClientTests.swift; sourceTree = "<group>"; };
-		9660117D2037F41C0035FE96 /* GeniusTestBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusTestBase.swift; sourceTree = "<group>"; };
-		9660117E2037F41C0035FE96 /* GeniusAnnotationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusAnnotationTests.swift; sourceTree = "<group>"; };
-		966011892037F42A0035FE96 /* JSONTestBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTestBase.swift; sourceTree = "<group>"; };
-		9660118A2037F42B0035FE96 /* ClientTestBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTestBase.swift; sourceTree = "<group>"; };
-		9689839C203D158A00DE77BC /* JSONClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSONClient.framework; path = Carthage/Build/iOS/JSONClient.framework; sourceTree = "<group>"; };
+		"JSONClient::JSONClient::Product" /* JSONClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSONClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"OAuthSwift::OAuthSwift::Product" /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OAuthSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* GeniusAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusAccount.swift; sourceTree = "<group>"; };
+		OBJ_100 /* Stylobate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylobate.swift; sourceTree = "<group>"; };
+		OBJ_102 /* CLLocationCoordinate2D+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Formatting.swift"; sourceTree = "<group>"; };
+		OBJ_103 /* CustomOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperators.swift; sourceTree = "<group>"; };
+		OBJ_104 /* Date+Trigonometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Trigonometry.swift"; sourceTree = "<group>"; };
+		OBJ_105 /* Int+Rubyish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Rubyish.swift"; sourceTree = "<group>"; };
+		OBJ_106 /* LifecycleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleError.swift; sourceTree = "<group>"; };
+		OBJ_107 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		OBJ_108 /* TimeIntervalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalExtensions.swift; sourceTree = "<group>"; };
+		OBJ_109 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		OBJ_11 /* GeniusAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusAnnotation.swift; sourceTree = "<group>"; };
+		OBJ_111 /* BusyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusyView.swift; sourceTree = "<group>"; };
+		OBJ_112 /* CALayer+Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Geometry.swift"; sourceTree = "<group>"; };
+		OBJ_113 /* CollectionAndTableDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionAndTableDisplay.swift; sourceTree = "<group>"; };
+		OBJ_114 /* DegreesMinutesSecondsFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegreesMinutesSecondsFormatter.swift; sourceTree = "<group>"; };
+		OBJ_115 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		OBJ_116 /* FormattedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedLabel.swift; sourceTree = "<group>"; };
+		OBJ_117 /* HidingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HidingImageView.swift; sourceTree = "<group>"; };
+		OBJ_118 /* HidingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HidingLabel.swift; sourceTree = "<group>"; };
+		OBJ_119 /* MissingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingCell.swift; sourceTree = "<group>"; };
+		OBJ_12 /* GeniusArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusArtist.swift; sourceTree = "<group>"; };
+		OBJ_120 /* MultilineTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextView.swift; sourceTree = "<group>"; };
+		OBJ_121 /* ProgressBusyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBusyView.swift; sourceTree = "<group>"; };
+		OBJ_122 /* SpinnerBusyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerBusyView.swift; sourceTree = "<group>"; };
+		OBJ_123 /* TextResizingPinchGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextResizingPinchGestureRecognizer.swift; sourceTree = "<group>"; };
+		OBJ_124 /* ToggleButtonStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButtonStackView.swift; sourceTree = "<group>"; };
+		OBJ_125 /* ToggleStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStackView.swift; sourceTree = "<group>"; };
+		OBJ_126 /* UIBezierPath+Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+Pie.swift"; sourceTree = "<group>"; };
+		OBJ_127 /* UIView+Autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Autolayout.swift"; sourceTree = "<group>"; };
+		OBJ_128 /* UIView+Summoner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Summoner.swift"; sourceTree = "<group>"; };
+		OBJ_129 /* VideoPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreview.swift; sourceTree = "<group>"; };
+		OBJ_13 /* GeniusArtistSongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusArtistSongs.swift; sourceTree = "<group>"; };
+		OBJ_130 /* VisualIndicatorBusyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualIndicatorBusyView.swift; sourceTree = "<group>"; };
+		OBJ_132 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/ethanhumphrey/GitHub/SwiftGenius/.build/checkouts/PromiseKit/Package.swift; sourceTree = "<group>"; };
+		OBJ_133 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		OBJ_134 /* Catchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catchable.swift; sourceTree = "<group>"; };
+		OBJ_135 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		OBJ_136 /* CustomStringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStringConvertible.swift; sourceTree = "<group>"; };
+		OBJ_137 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		OBJ_138 /* Guarantee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guarantee.swift; sourceTree = "<group>"; };
+		OBJ_139 /* LogEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEvent.swift; sourceTree = "<group>"; };
+		OBJ_14 /* GeniusClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusClient.swift; sourceTree = "<group>"; };
+		OBJ_140 /* Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		OBJ_141 /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
+		OBJ_142 /* Thenable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thenable.swift; sourceTree = "<group>"; };
+		OBJ_143 /* after.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = after.swift; sourceTree = "<group>"; };
+		OBJ_144 /* firstly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstly.swift; sourceTree = "<group>"; };
+		OBJ_145 /* hang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hang.swift; sourceTree = "<group>"; };
+		OBJ_146 /* race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = race.swift; sourceTree = "<group>"; };
+		OBJ_147 /* when.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = when.swift; sourceTree = "<group>"; };
+		OBJ_15 /* GeniusReferent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusReferent.swift; sourceTree = "<group>"; };
+		OBJ_155 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		OBJ_156 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		OBJ_157 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_158 /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
+		OBJ_159 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		OBJ_16 /* GeniusResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusResponse.swift; sourceTree = "<group>"; };
+		OBJ_17 /* GeniusSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusSearch.swift; sourceTree = "<group>"; };
+		OBJ_18 /* GeniusSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusSong.swift; sourceTree = "<group>"; };
+		OBJ_19 /* GeniusWebPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusWebPage.swift; sourceTree = "<group>"; };
+		OBJ_21 /* MockGenius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGenius.swift; sourceTree = "<group>"; };
+		OBJ_22 /* OtherTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherTypes.swift; sourceTree = "<group>"; };
+		OBJ_25 /* ClientTestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTestBase.swift; sourceTree = "<group>"; };
+		OBJ_26 /* GeniusAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusAccountTests.swift; sourceTree = "<group>"; };
+		OBJ_27 /* GeniusAnnotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusAnnotationTests.swift; sourceTree = "<group>"; };
+		OBJ_28 /* GeniusArtistSongsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusArtistSongsTest.swift; sourceTree = "<group>"; };
+		OBJ_29 /* GeniusArtistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusArtistTests.swift; sourceTree = "<group>"; };
+		OBJ_30 /* GeniusClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusClientTests.swift; sourceTree = "<group>"; };
+		OBJ_31 /* GeniusReferentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusReferentTests.swift; sourceTree = "<group>"; };
+		OBJ_32 /* GeniusSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusSearchTests.swift; sourceTree = "<group>"; };
+		OBJ_33 /* GeniusSongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusSongTests.swift; sourceTree = "<group>"; };
+		OBJ_34 /* GeniusTestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusTestBase.swift; sourceTree = "<group>"; };
+		OBJ_35 /* JSONTestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTestBase.swift; sourceTree = "<group>"; };
+		OBJ_36 /* MockGeniusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGeniusTests.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/ethanhumphrey/GitHub/SwiftGenius/.build/checkouts/JSONClient/Package.swift; sourceTree = "<group>"; };
+		OBJ_40 /* AuthorizedJSONClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizedJSONClient.swift; sourceTree = "<group>"; };
+		OBJ_41 /* JSONClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONClient.swift; sourceTree = "<group>"; };
+		OBJ_42 /* MockClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockClient.swift; sourceTree = "<group>"; };
+		OBJ_43 /* OAuth1JSONClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth1JSONClient.swift; sourceTree = "<group>"; };
+		OBJ_44 /* OAuth2JSONClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth2JSONClient.swift; sourceTree = "<group>"; };
+		OBJ_46 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/ethanhumphrey/GitHub/SwiftGenius/.build/checkouts/OAuthSwift/Package.swift; sourceTree = "<group>"; };
+		OBJ_47 /* Collection+OAuthSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+OAuthSwift.swift"; sourceTree = "<group>"; };
+		OBJ_48 /* Data+OAuthSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+OAuthSwift.swift"; sourceTree = "<group>"; };
+		OBJ_49 /* Dictionary+OAuthSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+OAuthSwift.swift"; sourceTree = "<group>"; };
+		OBJ_50 /* HMAC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
+		OBJ_52 /* ASWebAuthenticationURLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASWebAuthenticationURLHandler.swift; sourceTree = "<group>"; };
+		OBJ_53 /* ExtensionContextURLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionContextURLHandler.swift; sourceTree = "<group>"; };
+		OBJ_54 /* OAuthSwiftOpenURLExternally.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthSwiftOpenURLExternally.swift; sourceTree = "<group>"; };
+		OBJ_55 /* OAuthSwiftURLHandlerProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthSwiftURLHandlerProxy.swift; sourceTree = "<group>"; };
+		OBJ_56 /* OAuthWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthWebViewController.swift; sourceTree = "<group>"; };
+		OBJ_57 /* SFAuthenticationURLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFAuthenticationURLHandler.swift; sourceTree = "<group>"; };
+		OBJ_58 /* SafariURLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariURLHandler.swift; sourceTree = "<group>"; };
+		OBJ_59 /* Int+OAuthSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+OAuthSwift.swift"; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* NSError+OAuthSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSError+OAuthSwift.swift"; sourceTree = "<group>"; };
+		OBJ_61 /* NotificationCenter+OAuthSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+OAuthSwift.swift"; sourceTree = "<group>"; };
+		OBJ_62 /* OAuth1Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth1Swift.swift; sourceTree = "<group>"; };
+		OBJ_63 /* OAuth2Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth2Swift.swift; sourceTree = "<group>"; };
+		OBJ_64 /* OAuthSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthSwift.swift; sourceTree = "<group>"; };
+		OBJ_65 /* OAuthSwiftClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthSwiftClient.swift; sourceTree = "<group>"; };
+		OBJ_66 /* OAuthSwiftCredential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthSwiftCredential.swift; sourceTree = "<group>"; };
+		OBJ_67 /* OAuthSwiftError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthSwiftError.swift; sourceTree = "<group>"; };
+		OBJ_68 /* OAuthSwiftHTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthSwiftHTTPRequest.swift; sourceTree = "<group>"; };
+		OBJ_69 /* OAuthSwiftMultipartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthSwiftMultipartData.swift; sourceTree = "<group>"; };
+		OBJ_70 /* OAuthSwiftResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthSwiftResponse.swift; sourceTree = "<group>"; };
+		OBJ_71 /* OAuthSwiftURLHandlerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthSwiftURLHandlerType.swift; sourceTree = "<group>"; };
+		OBJ_72 /* SHA1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA1.swift; sourceTree = "<group>"; };
+		OBJ_73 /* String+OAuthSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+OAuthSwift.swift"; sourceTree = "<group>"; };
+		OBJ_74 /* UIApplication+OAuthSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+OAuthSwift.swift"; sourceTree = "<group>"; };
+		OBJ_75 /* URL+OAuthSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+OAuthSwift.swift"; sourceTree = "<group>"; };
+		OBJ_76 /* URLConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConvertible.swift; sourceTree = "<group>"; };
+		OBJ_77 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		OBJ_79 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/ethanhumphrey/GitHub/SwiftGenius/.build/checkouts/Stylobate/Package.swift; sourceTree = "<group>"; };
+		OBJ_81 /* CollectionAndTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionAndTableViewController.swift; sourceTree = "<group>"; };
+		OBJ_82 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		OBJ_83 /* UIViewController+Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alerts.swift"; sourceTree = "<group>"; };
+		OBJ_85 /* FetchedResultsCollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedResultsCollectionModel.swift; sourceTree = "<group>"; };
+		OBJ_86 /* FetchedResultsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedResultsModel.swift; sourceTree = "<group>"; };
+		OBJ_87 /* FetchedResultsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedResultsProvider.swift; sourceTree = "<group>"; };
+		OBJ_88 /* FetchedResultsTableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedResultsTableModel.swift; sourceTree = "<group>"; };
+		OBJ_89 /* KeyPath+SortDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyPath+SortDescriptor.swift"; sourceTree = "<group>"; };
+		OBJ_9 /* Genius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genius.swift; sourceTree = "<group>"; };
+		OBJ_90 /* ManagedObjectContextContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedObjectContextContainer.swift; sourceTree = "<group>"; };
+		OBJ_91 /* NSManagedObject+FetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+FetchRequest.swift"; sourceTree = "<group>"; };
+		OBJ_92 /* NSManagedObjectContext+ObjectCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+ObjectCreator.swift"; sourceTree = "<group>"; };
+		OBJ_93 /* NSPredicate+Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPredicate+Operators.swift"; sourceTree = "<group>"; };
+		OBJ_95 /* Codable+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Utils.swift"; sourceTree = "<group>"; };
+		OBJ_96 /* JSONUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUtils.swift; sourceTree = "<group>"; };
+		OBJ_98 /* CollectionAndTableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionAndTableModel.swift; sourceTree = "<group>"; };
+		OBJ_99 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		"PromiseKit::PromiseKit::Product" /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Stylobate::Stylobate::Product" /* Stylobate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Stylobate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftGenius::SwiftGenius::Product" /* SwiftGenius.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftGenius.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftGenius::SwiftGeniusTests::Product" /* SwiftGeniusTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftGeniusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9660111E2037E26C0035FE96 /* Frameworks */ = {
+		OBJ_170 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				9689839D203D158A00DE77BC /* JSONClient.framework in Frameworks */,
-				9660113F2037F3800035FE96 /* PromiseKit.framework in Frameworks */,
-				966011402037F3800035FE96 /* OAuthSwift.framework in Frameworks */,
+				OBJ_171 /* PromiseKit.framework in Frameworks */,
+				OBJ_172 /* OAuthSwift.framework in Frameworks */,
+				OBJ_173 /* Stylobate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		966011282037E26C0035FE96 /* Frameworks */ = {
+		OBJ_220 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				9660118F203886430035FE96 /* OAuthSwift.framework in Frameworks */,
-				96601190203886430035FE96 /* PromiseKit.framework in Frameworks */,
-				9660112C2037E26C0035FE96 /* SwiftGenius.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_328 /* JSONClient.framework in Frameworks */,
+				OBJ_329 /* PromiseKit.framework in Frameworks */,
+				OBJ_330 /* OAuthSwift.framework in Frameworks */,
+				OBJ_331 /* Stylobate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_365 /* SwiftGenius.framework in Frameworks */,
+				OBJ_366 /* JSONClient.framework in Frameworks */,
+				OBJ_367 /* PromiseKit.framework in Frameworks */,
+				OBJ_368 /* OAuthSwift.framework in Frameworks */,
+				OBJ_369 /* Stylobate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		966011182037E26C0035FE96 = {
+		OBJ_101 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				966011242037E26C0035FE96 /* SwiftGenius */,
-				9660112F2037E26C0035FE96 /* SwiftGeniusTests */,
-				966011232037E26C0035FE96 /* Products */,
-				9660113C2037F37F0035FE96 /* Frameworks */,
+				OBJ_102 /* CLLocationCoordinate2D+Formatting.swift */,
+				OBJ_103 /* CustomOperators.swift */,
+				OBJ_104 /* Date+Trigonometry.swift */,
+				OBJ_105 /* Int+Rubyish.swift */,
+				OBJ_106 /* LifecycleError.swift */,
+				OBJ_107 /* Settings.swift */,
+				OBJ_108 /* TimeIntervalExtensions.swift */,
+				OBJ_109 /* UserDefault.swift */,
 			);
+			path = Util;
 			sourceTree = "<group>";
 		};
-		966011232037E26C0035FE96 /* Products */ = {
+		OBJ_110 /* Views & Displays */ = {
 			isa = PBXGroup;
 			children = (
-				966011222037E26C0035FE96 /* SwiftGenius.framework */,
-				9660112B2037E26C0035FE96 /* SwiftGeniusTests.xctest */,
+				OBJ_111 /* BusyView.swift */,
+				OBJ_112 /* CALayer+Geometry.swift */,
+				OBJ_113 /* CollectionAndTableDisplay.swift */,
+				OBJ_114 /* DegreesMinutesSecondsFormatter.swift */,
+				OBJ_115 /* Display.swift */,
+				OBJ_116 /* FormattedLabel.swift */,
+				OBJ_117 /* HidingImageView.swift */,
+				OBJ_118 /* HidingLabel.swift */,
+				OBJ_119 /* MissingCell.swift */,
+				OBJ_120 /* MultilineTextView.swift */,
+				OBJ_121 /* ProgressBusyView.swift */,
+				OBJ_122 /* SpinnerBusyView.swift */,
+				OBJ_123 /* TextResizingPinchGestureRecognizer.swift */,
+				OBJ_124 /* ToggleButtonStackView.swift */,
+				OBJ_125 /* ToggleStackView.swift */,
+				OBJ_126 /* UIBezierPath+Pie.swift */,
+				OBJ_127 /* UIView+Autolayout.swift */,
+				OBJ_128 /* UIView+Summoner.swift */,
+				OBJ_129 /* VideoPreview.swift */,
+				OBJ_130 /* VisualIndicatorBusyView.swift */,
+			);
+			path = "Views & Displays";
+			sourceTree = "<group>";
+		};
+		OBJ_131 /* PromiseKit 6.13.3 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_132 /* Package.swift */,
+				OBJ_133 /* Box.swift */,
+				OBJ_134 /* Catchable.swift */,
+				OBJ_135 /* Configuration.swift */,
+				OBJ_136 /* CustomStringConvertible.swift */,
+				OBJ_137 /* Error.swift */,
+				OBJ_138 /* Guarantee.swift */,
+				OBJ_139 /* LogEvent.swift */,
+				OBJ_140 /* Promise.swift */,
+				OBJ_141 /* Resolver.swift */,
+				OBJ_142 /* Thenable.swift */,
+				OBJ_143 /* after.swift */,
+				OBJ_144 /* firstly.swift */,
+				OBJ_145 /* hang.swift */,
+				OBJ_146 /* race.swift */,
+				OBJ_147 /* when.swift */,
+			);
+			name = "PromiseKit 6.13.3";
+			path = .build/checkouts/PromiseKit/Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SwiftGenius::SwiftGenius::Product" /* SwiftGenius.framework */,
+				"SwiftGenius::SwiftGeniusTests::Product" /* SwiftGeniusTests.xctest */,
+				"OAuthSwift::OAuthSwift::Product" /* OAuthSwift.framework */,
+				"Stylobate::Stylobate::Product" /* Stylobate.framework */,
+				"PromiseKit::PromiseKit::Product" /* PromiseKit.framework */,
+				"JSONClient::JSONClient::Product" /* JSONClient.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		966011242037E26C0035FE96 /* SwiftGenius */ = {
+		OBJ_20 /* Mock Implementation */ = {
 			isa = PBXGroup;
 			children = (
-				966011522037F3D00035FE96 /* Genius.swift */,
-				966011532037F3D00035FE96 /* GeniusAccount.swift */,
-				9660114E2037F3CD0035FE96 /* GeniusAnnotation.swift */,
-				966011552037F3D10035FE96 /* GeniusArtist.swift */,
-				966011572037F3D20035FE96 /* GeniusArtistSongs.swift */,
-				966011582037F3D30035FE96 /* GeniusClient.swift */,
-				966011512037F3CF0035FE96 /* GeniusReferent.swift */,
-				9660114F2037F3CE0035FE96 /* GeniusResponse.swift */,
-				966011412037F3CC0035FE96 /* GeniusSearch.swift */,
-				966011562037F3D20035FE96 /* GeniusSong.swift */,
-				966011542037F3D10035FE96 /* GeniusWebPage.swift */,
-				966011262037E26C0035FE96 /* Info.plist */,
-				966011422037F3CD0035FE96 /* Mock Implementation */,
-				966011502037F3CE0035FE96 /* OtherTypes.swift */,
-				966011252037E26C0035FE96 /* SwiftGenius.h */,
-			);
-			path = SwiftGenius;
-			sourceTree = "<group>";
-		};
-		9660112F2037E26C0035FE96 /* SwiftGeniusTests */ = {
-			isa = PBXGroup;
-			children = (
-				9660118A2037F42B0035FE96 /* ClientTestBase.swift */,
-				966011772037F4180035FE96 /* GeniusAccountTests.swift */,
-				9660117E2037F41C0035FE96 /* GeniusAnnotationTests.swift */,
-				966011782037F4190035FE96 /* GeniusArtistSongsTest.swift */,
-				966011792037F4190035FE96 /* GeniusArtistTests.swift */,
-				9660117C2037F41B0035FE96 /* GeniusClientTests.swift */,
-				9660117B2037F41B0035FE96 /* GeniusReferentTests.swift */,
-				9660117A2037F41A0035FE96 /* GeniusSearchTests.swift */,
-				966011762037F4180035FE96 /* GeniusSongTests.swift */,
-				9660117D2037F41C0035FE96 /* GeniusTestBase.swift */,
-				966011322037E26C0035FE96 /* Info.plist */,
-				966011892037F42A0035FE96 /* JSONTestBase.swift */,
-				966011752037F4170035FE96 /* MockGeniusTests.swift */,
-			);
-			path = SwiftGeniusTests;
-			sourceTree = "<group>";
-		};
-		9660113C2037F37F0035FE96 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9689839C203D158A00DE77BC /* JSONClient.framework */,
-				9660113E2037F3800035FE96 /* OAuthSwift.framework */,
-				9660113D2037F3800035FE96 /* PromiseKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		966011422037F3CD0035FE96 /* Mock Implementation */ = {
-			isa = PBXGroup;
-			children = (
-				966011432037F3CD0035FE96 /* JSON */,
-				9660114D2037F3CD0035FE96 /* MockGenius.swift */,
+				OBJ_21 /* MockGenius.swift */,
 			);
 			path = "Mock Implementation";
 			sourceTree = "<group>";
 		};
-		966011432037F3CD0035FE96 /* JSON */ = {
+		OBJ_23 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				966011442037F3CD0035FE96 /* get-songs-200.json */,
-				966011452037F3CD0035FE96 /* get-web-pages-200.json */,
-				966011462037F3CD0035FE96 /* get-artists-200.json */,
-				966011472037F3CD0035FE96 /* get-search-200.json */,
-				966011482037F3CD0035FE96 /* get-account-200.json */,
-				966011492037F3CD0035FE96 /* get-annotations-200.json */,
-				9660114A2037F3CD0035FE96 /* get-referents-200.json */,
-				9660114B2037F3CD0035FE96 /* get-artist-songs-200.json */,
-				9660114C2037F3CD0035FE96 /* xx */,
+				OBJ_24 /* SwiftGeniusTests */,
+			);
+			path = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_24 /* SwiftGeniusTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* ClientTestBase.swift */,
+				OBJ_26 /* GeniusAccountTests.swift */,
+				OBJ_27 /* GeniusAnnotationTests.swift */,
+				OBJ_28 /* GeniusArtistSongsTest.swift */,
+				OBJ_29 /* GeniusArtistTests.swift */,
+				OBJ_30 /* GeniusClientTests.swift */,
+				OBJ_31 /* GeniusReferentTests.swift */,
+				OBJ_32 /* GeniusSearchTests.swift */,
+				OBJ_33 /* GeniusSongTests.swift */,
+				OBJ_34 /* GeniusTestBase.swift */,
+				OBJ_35 /* JSONTestBase.swift */,
+				OBJ_36 /* MockGeniusTests.swift */,
+			);
+			path = SwiftGeniusTests;
+			sourceTree = "<group>";
+		};
+		OBJ_37 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_38 /* JSONClient */,
+				OBJ_45 /* OAuthSwift 2.1.2 */,
+				OBJ_78 /* Stylobate */,
+				OBJ_131 /* PromiseKit 6.13.3 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_38 /* JSONClient */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_39 /* Package.swift */,
+				OBJ_40 /* AuthorizedJSONClient.swift */,
+				OBJ_41 /* JSONClient.swift */,
+				OBJ_42 /* MockClient.swift */,
+				OBJ_43 /* OAuth1JSONClient.swift */,
+				OBJ_44 /* OAuth2JSONClient.swift */,
+			);
+			name = JSONClient;
+			path = .build/checkouts/JSONClient/Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_45 /* OAuthSwift 2.1.2 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_46 /* Package.swift */,
+				OBJ_47 /* Collection+OAuthSwift.swift */,
+				OBJ_48 /* Data+OAuthSwift.swift */,
+				OBJ_49 /* Dictionary+OAuthSwift.swift */,
+				OBJ_50 /* HMAC.swift */,
+				OBJ_51 /* Handler */,
+				OBJ_59 /* Int+OAuthSwift.swift */,
+				OBJ_60 /* NSError+OAuthSwift.swift */,
+				OBJ_61 /* NotificationCenter+OAuthSwift.swift */,
+				OBJ_62 /* OAuth1Swift.swift */,
+				OBJ_63 /* OAuth2Swift.swift */,
+				OBJ_64 /* OAuthSwift.swift */,
+				OBJ_65 /* OAuthSwiftClient.swift */,
+				OBJ_66 /* OAuthSwiftCredential.swift */,
+				OBJ_67 /* OAuthSwiftError.swift */,
+				OBJ_68 /* OAuthSwiftHTTPRequest.swift */,
+				OBJ_69 /* OAuthSwiftMultipartData.swift */,
+				OBJ_70 /* OAuthSwiftResponse.swift */,
+				OBJ_71 /* OAuthSwiftURLHandlerType.swift */,
+				OBJ_72 /* SHA1.swift */,
+				OBJ_73 /* String+OAuthSwift.swift */,
+				OBJ_74 /* UIApplication+OAuthSwift.swift */,
+				OBJ_75 /* URL+OAuthSwift.swift */,
+				OBJ_76 /* URLConvertible.swift */,
+				OBJ_77 /* Utils.swift */,
+			);
+			name = "OAuthSwift 2.1.2";
+			path = .build/checkouts/OAuthSwift/Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_23 /* Tests */,
+				OBJ_37 /* Dependencies */,
+				OBJ_148 /* Products */,
+				OBJ_155 /* Cartfile.resolved */,
+				OBJ_156 /* Cartfile */,
+				OBJ_157 /* README.md */,
+				OBJ_158 /* Cartfile.private */,
+				OBJ_159 /* LICENSE.txt */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_51 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_52 /* ASWebAuthenticationURLHandler.swift */,
+				OBJ_53 /* ExtensionContextURLHandler.swift */,
+				OBJ_54 /* OAuthSwiftOpenURLExternally.swift */,
+				OBJ_55 /* OAuthSwiftURLHandlerProxy.swift */,
+				OBJ_56 /* OAuthWebViewController.swift */,
+				OBJ_57 /* SFAuthenticationURLHandler.swift */,
+				OBJ_58 /* SafariURLHandler.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* SwiftGeniusPackage */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_78 /* Stylobate */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_79 /* Package.swift */,
+				OBJ_80 /* Controllers */,
+				OBJ_84 /* Core Data */,
+				OBJ_94 /* JSON */,
+				OBJ_97 /* Models */,
+				OBJ_99 /* Strings.swift */,
+				OBJ_100 /* Stylobate.swift */,
+				OBJ_101 /* Util */,
+				OBJ_110 /* Views & Displays */,
+			);
+			name = Stylobate;
+			path = .build/checkouts/Stylobate/Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* SwiftGeniusPackage */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Genius.swift */,
+				OBJ_10 /* GeniusAccount.swift */,
+				OBJ_11 /* GeniusAnnotation.swift */,
+				OBJ_12 /* GeniusArtist.swift */,
+				OBJ_13 /* GeniusArtistSongs.swift */,
+				OBJ_14 /* GeniusClient.swift */,
+				OBJ_15 /* GeniusReferent.swift */,
+				OBJ_16 /* GeniusResponse.swift */,
+				OBJ_17 /* GeniusSearch.swift */,
+				OBJ_18 /* GeniusSong.swift */,
+				OBJ_19 /* GeniusWebPage.swift */,
+				OBJ_20 /* Mock Implementation */,
+				OBJ_22 /* OtherTypes.swift */,
+			);
+			path = SwiftGeniusPackage;
+			sourceTree = "<group>";
+		};
+		OBJ_80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_81 /* CollectionAndTableViewController.swift */,
+				OBJ_82 /* Controller.swift */,
+				OBJ_83 /* UIViewController+Alerts.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		OBJ_84 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_85 /* FetchedResultsCollectionModel.swift */,
+				OBJ_86 /* FetchedResultsModel.swift */,
+				OBJ_87 /* FetchedResultsProvider.swift */,
+				OBJ_88 /* FetchedResultsTableModel.swift */,
+				OBJ_89 /* KeyPath+SortDescriptor.swift */,
+				OBJ_90 /* ManagedObjectContextContainer.swift */,
+				OBJ_91 /* NSManagedObject+FetchRequest.swift */,
+				OBJ_92 /* NSManagedObjectContext+ObjectCreator.swift */,
+				OBJ_93 /* NSPredicate+Operators.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		OBJ_94 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_95 /* Codable+Utils.swift */,
+				OBJ_96 /* JSONUtils.swift */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
 		};
+		OBJ_97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_98 /* CollectionAndTableModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		9660111F2037E26C0035FE96 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				966011332037E26C0035FE96 /* SwiftGenius.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		966011212037E26C0035FE96 /* SwiftGenius */ = {
+		"JSONClient::JSONClient" /* JSONClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 966011362037E26C0035FE96 /* Build configuration list for PBXNativeTarget "SwiftGenius" */;
+			buildConfigurationList = OBJ_161 /* Build configuration list for PBXNativeTarget "JSONClient" */;
 			buildPhases = (
-				9660111D2037E26C0035FE96 /* Sources */,
-				9660111E2037E26C0035FE96 /* Frameworks */,
-				9660111F2037E26C0035FE96 /* Headers */,
-				966011202037E26C0035FE96 /* Resources */,
+				OBJ_164 /* Sources */,
+				OBJ_170 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_174 /* PBXTargetDependency */,
+				OBJ_176 /* PBXTargetDependency */,
+				OBJ_178 /* PBXTargetDependency */,
+			);
+			name = JSONClient;
+			productName = JSONClient;
+			productReference = "JSONClient::JSONClient::Product" /* JSONClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"JSONClient::SwiftPMPackageDescription" /* JSONClientPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_181 /* Build configuration list for PBXNativeTarget "JSONClientPackageDescription" */;
+			buildPhases = (
+				OBJ_184 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONClientPackageDescription;
+			productName = JSONClientPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"OAuthSwift::OAuthSwift" /* OAuthSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_186 /* Build configuration list for PBXNativeTarget "OAuthSwift" */;
+			buildPhases = (
+				OBJ_189 /* Sources */,
+				OBJ_220 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OAuthSwift;
+			productName = OAuthSwift;
+			productReference = "OAuthSwift::OAuthSwift::Product" /* OAuthSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"OAuthSwift::SwiftPMPackageDescription" /* OAuthSwiftPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_222 /* Build configuration list for PBXNativeTarget "OAuthSwiftPackageDescription" */;
+			buildPhases = (
+				OBJ_225 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OAuthSwiftPackageDescription;
+			productName = OAuthSwiftPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"PromiseKit::PromiseKit" /* PromiseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_227 /* Build configuration list for PBXNativeTarget "PromiseKit" */;
+			buildPhases = (
+				OBJ_230 /* Sources */,
+				OBJ_246 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromiseKit;
+			productName = PromiseKit;
+			productReference = "PromiseKit::PromiseKit::Product" /* PromiseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PromiseKit::SwiftPMPackageDescription" /* PromiseKitPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_248 /* Build configuration list for PBXNativeTarget "PromiseKitPackageDescription" */;
+			buildPhases = (
+				OBJ_251 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromiseKitPackageDescription;
+			productName = PromiseKitPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"Stylobate::Stylobate" /* Stylobate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_253 /* Build configuration list for PBXNativeTarget "Stylobate" */;
+			buildPhases = (
+				OBJ_256 /* Sources */,
+				OBJ_302 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stylobate;
+			productName = Stylobate;
+			productReference = "Stylobate::Stylobate::Product" /* Stylobate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Stylobate::SwiftPMPackageDescription" /* StylobatePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_304 /* Build configuration list for PBXNativeTarget "StylobatePackageDescription" */;
+			buildPhases = (
+				OBJ_307 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StylobatePackageDescription;
+			productName = StylobatePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftGenius::SwiftGenius" /* SwiftGenius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_310 /* Build configuration list for PBXNativeTarget "SwiftGenius" */;
+			buildPhases = (
+				OBJ_313 /* Sources */,
+				OBJ_327 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_332 /* PBXTargetDependency */,
+				OBJ_333 /* PBXTargetDependency */,
+				OBJ_334 /* PBXTargetDependency */,
+				OBJ_335 /* PBXTargetDependency */,
 			);
 			name = SwiftGenius;
 			productName = SwiftGenius;
-			productReference = 966011222037E26C0035FE96 /* SwiftGenius.framework */;
+			productReference = "SwiftGenius::SwiftGenius::Product" /* SwiftGenius.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9660112A2037E26C0035FE96 /* SwiftGeniusTests */ = {
+		"SwiftGenius::SwiftGeniusTests" /* SwiftGeniusTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 966011392037E26C0035FE96 /* Build configuration list for PBXNativeTarget "SwiftGeniusTests" */;
+			buildConfigurationList = OBJ_348 /* Build configuration list for PBXNativeTarget "SwiftGeniusTests" */;
 			buildPhases = (
-				966011272037E26C0035FE96 /* Sources */,
-				966011282037E26C0035FE96 /* Frameworks */,
-				966011292037E26C0035FE96 /* Resources */,
+				OBJ_351 /* Sources */,
+				OBJ_364 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9660112E2037E26C0035FE96 /* PBXTargetDependency */,
+				OBJ_370 /* PBXTargetDependency */,
+				OBJ_371 /* PBXTargetDependency */,
+				OBJ_372 /* PBXTargetDependency */,
+				OBJ_373 /* PBXTargetDependency */,
+				OBJ_374 /* PBXTargetDependency */,
 			);
 			name = SwiftGeniusTests;
 			productName = SwiftGeniusTests;
-			productReference = 9660112B2037E26C0035FE96 /* SwiftGeniusTests.xctest */;
+			productReference = "SwiftGenius::SwiftGeniusTests::Product" /* SwiftGeniusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"SwiftGenius::SwiftPMPackageDescription" /* SwiftGeniusPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_337 /* Build configuration list for PBXNativeTarget "SwiftGeniusPackageDescription" */;
+			buildPhases = (
+				OBJ_340 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGeniusPackageDescription;
+			productName = SwiftGeniusPackageDescription;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		966011192037E26C0035FE96 /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = "Poikile Creations";
-				TargetAttributes = {
-					966011212037E26C0035FE96 = {
-						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 0920;
-						ProvisioningStyle = Automatic;
-					};
-					9660112A2037E26C0035FE96 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
-				};
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = 9660111C2037E26C0035FE96 /* Build configuration list for PBXProject "SwiftGenius" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftGenius" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 966011182037E26C0035FE96;
-			productRefGroup = 966011232037E26C0035FE96 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_148 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				966011212037E26C0035FE96 /* SwiftGenius */,
-				9660112A2037E26C0035FE96 /* SwiftGeniusTests */,
+				"JSONClient::JSONClient" /* JSONClient */,
+				"JSONClient::SwiftPMPackageDescription" /* JSONClientPackageDescription */,
+				"OAuthSwift::OAuthSwift" /* OAuthSwift */,
+				"OAuthSwift::SwiftPMPackageDescription" /* OAuthSwiftPackageDescription */,
+				"PromiseKit::PromiseKit" /* PromiseKit */,
+				"PromiseKit::SwiftPMPackageDescription" /* PromiseKitPackageDescription */,
+				"Stylobate::Stylobate" /* Stylobate */,
+				"Stylobate::SwiftPMPackageDescription" /* StylobatePackageDescription */,
+				"SwiftGenius::SwiftGenius" /* SwiftGenius */,
+				"SwiftGenius::SwiftPMPackageDescription" /* SwiftGeniusPackageDescription */,
+				"SwiftGenius::SwiftGeniusPackageTests::ProductTarget" /* SwiftGeniusPackageTests */,
+				"SwiftGenius::SwiftGeniusTests" /* SwiftGeniusTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		966011202037E26C0035FE96 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9660115F2037F3D30035FE96 /* get-annotations-200.json in Resources */,
-				9660115A2037F3D30035FE96 /* get-songs-200.json in Resources */,
-				9660115D2037F3D30035FE96 /* get-search-200.json in Resources */,
-				966011612037F3D30035FE96 /* get-artist-songs-200.json in Resources */,
-				9660115C2037F3D30035FE96 /* get-artists-200.json in Resources */,
-				9660115B2037F3D30035FE96 /* get-web-pages-200.json in Resources */,
-				9660115E2037F3D30035FE96 /* get-account-200.json in Resources */,
-				966011622037F3D30035FE96 /* xx in Resources */,
-				966011602037F3D30035FE96 /* get-referents-200.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		966011292037E26C0035FE96 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		9660111D2037E26C0035FE96 /* Sources */ = {
+		OBJ_164 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				966011662037F3D30035FE96 /* OtherTypes.swift in Sources */,
-				9660116A2037F3D30035FE96 /* GeniusWebPage.swift in Sources */,
-				9660116C2037F3D30035FE96 /* GeniusSong.swift in Sources */,
-				966011672037F3D30035FE96 /* GeniusReferent.swift in Sources */,
-				966011642037F3D30035FE96 /* GeniusAnnotation.swift in Sources */,
-				966011652037F3D30035FE96 /* GeniusResponse.swift in Sources */,
-				9660116D2037F3D30035FE96 /* GeniusArtistSongs.swift in Sources */,
-				9660116E2037F3D30035FE96 /* GeniusClient.swift in Sources */,
-				9660116B2037F3D30035FE96 /* GeniusArtist.swift in Sources */,
-				966011682037F3D30035FE96 /* Genius.swift in Sources */,
-				966011632037F3D30035FE96 /* MockGenius.swift in Sources */,
-				966011692037F3D30035FE96 /* GeniusAccount.swift in Sources */,
-				966011592037F3D30035FE96 /* GeniusSearch.swift in Sources */,
+				OBJ_165 /* AuthorizedJSONClient.swift in Sources */,
+				OBJ_166 /* JSONClient.swift in Sources */,
+				OBJ_167 /* MockClient.swift in Sources */,
+				OBJ_168 /* OAuth1JSONClient.swift in Sources */,
+				OBJ_169 /* OAuth2JSONClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		966011272037E26C0035FE96 /* Sources */ = {
+		OBJ_184 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				9660117F2037F41D0035FE96 /* MockGeniusTests.swift in Sources */,
-				9660118D2037F42C0035FE96 /* ClientTestBase.swift in Sources */,
-				966011832037F41D0035FE96 /* GeniusArtistTests.swift in Sources */,
-				966011842037F41D0035FE96 /* GeniusSearchTests.swift in Sources */,
-				966011802037F41D0035FE96 /* GeniusSongTests.swift in Sources */,
-				966011822037F41D0035FE96 /* GeniusArtistSongsTest.swift in Sources */,
-				966011872037F41D0035FE96 /* GeniusTestBase.swift in Sources */,
-				9660118C2037F42C0035FE96 /* JSONTestBase.swift in Sources */,
-				966011862037F41D0035FE96 /* GeniusClientTests.swift in Sources */,
-				966011852037F41D0035FE96 /* GeniusReferentTests.swift in Sources */,
-				966011882037F41D0035FE96 /* GeniusAnnotationTests.swift in Sources */,
-				966011812037F41D0035FE96 /* GeniusAccountTests.swift in Sources */,
+				OBJ_185 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_190 /* Collection+OAuthSwift.swift in Sources */,
+				OBJ_191 /* Data+OAuthSwift.swift in Sources */,
+				OBJ_192 /* Dictionary+OAuthSwift.swift in Sources */,
+				OBJ_193 /* HMAC.swift in Sources */,
+				OBJ_194 /* ASWebAuthenticationURLHandler.swift in Sources */,
+				OBJ_195 /* ExtensionContextURLHandler.swift in Sources */,
+				OBJ_196 /* OAuthSwiftOpenURLExternally.swift in Sources */,
+				OBJ_197 /* OAuthSwiftURLHandlerProxy.swift in Sources */,
+				OBJ_198 /* OAuthWebViewController.swift in Sources */,
+				OBJ_199 /* SFAuthenticationURLHandler.swift in Sources */,
+				OBJ_200 /* SafariURLHandler.swift in Sources */,
+				OBJ_201 /* Int+OAuthSwift.swift in Sources */,
+				OBJ_202 /* NSError+OAuthSwift.swift in Sources */,
+				OBJ_203 /* NotificationCenter+OAuthSwift.swift in Sources */,
+				OBJ_204 /* OAuth1Swift.swift in Sources */,
+				OBJ_205 /* OAuth2Swift.swift in Sources */,
+				OBJ_206 /* OAuthSwift.swift in Sources */,
+				OBJ_207 /* OAuthSwiftClient.swift in Sources */,
+				OBJ_208 /* OAuthSwiftCredential.swift in Sources */,
+				OBJ_209 /* OAuthSwiftError.swift in Sources */,
+				OBJ_210 /* OAuthSwiftHTTPRequest.swift in Sources */,
+				OBJ_211 /* OAuthSwiftMultipartData.swift in Sources */,
+				OBJ_212 /* OAuthSwiftResponse.swift in Sources */,
+				OBJ_213 /* OAuthSwiftURLHandlerType.swift in Sources */,
+				OBJ_214 /* SHA1.swift in Sources */,
+				OBJ_215 /* String+OAuthSwift.swift in Sources */,
+				OBJ_216 /* UIApplication+OAuthSwift.swift in Sources */,
+				OBJ_217 /* URL+OAuthSwift.swift in Sources */,
+				OBJ_218 /* URLConvertible.swift in Sources */,
+				OBJ_219 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_226 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_231 /* Box.swift in Sources */,
+				OBJ_232 /* Catchable.swift in Sources */,
+				OBJ_233 /* Configuration.swift in Sources */,
+				OBJ_234 /* CustomStringConvertible.swift in Sources */,
+				OBJ_235 /* Error.swift in Sources */,
+				OBJ_236 /* Guarantee.swift in Sources */,
+				OBJ_237 /* LogEvent.swift in Sources */,
+				OBJ_238 /* Promise.swift in Sources */,
+				OBJ_239 /* Resolver.swift in Sources */,
+				OBJ_240 /* Thenable.swift in Sources */,
+				OBJ_241 /* after.swift in Sources */,
+				OBJ_242 /* firstly.swift in Sources */,
+				OBJ_243 /* hang.swift in Sources */,
+				OBJ_244 /* race.swift in Sources */,
+				OBJ_245 /* when.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_252 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_257 /* CollectionAndTableViewController.swift in Sources */,
+				OBJ_258 /* Controller.swift in Sources */,
+				OBJ_259 /* UIViewController+Alerts.swift in Sources */,
+				OBJ_260 /* FetchedResultsCollectionModel.swift in Sources */,
+				OBJ_261 /* FetchedResultsModel.swift in Sources */,
+				OBJ_262 /* FetchedResultsProvider.swift in Sources */,
+				OBJ_263 /* FetchedResultsTableModel.swift in Sources */,
+				OBJ_264 /* KeyPath+SortDescriptor.swift in Sources */,
+				OBJ_265 /* ManagedObjectContextContainer.swift in Sources */,
+				OBJ_266 /* NSManagedObject+FetchRequest.swift in Sources */,
+				OBJ_267 /* NSManagedObjectContext+ObjectCreator.swift in Sources */,
+				OBJ_268 /* NSPredicate+Operators.swift in Sources */,
+				OBJ_269 /* Codable+Utils.swift in Sources */,
+				OBJ_270 /* JSONUtils.swift in Sources */,
+				OBJ_271 /* CollectionAndTableModel.swift in Sources */,
+				OBJ_272 /* Strings.swift in Sources */,
+				OBJ_273 /* Stylobate.swift in Sources */,
+				OBJ_274 /* CLLocationCoordinate2D+Formatting.swift in Sources */,
+				OBJ_275 /* CustomOperators.swift in Sources */,
+				OBJ_276 /* Date+Trigonometry.swift in Sources */,
+				OBJ_277 /* Int+Rubyish.swift in Sources */,
+				OBJ_278 /* LifecycleError.swift in Sources */,
+				OBJ_279 /* Settings.swift in Sources */,
+				OBJ_280 /* TimeIntervalExtensions.swift in Sources */,
+				OBJ_281 /* UserDefault.swift in Sources */,
+				OBJ_282 /* BusyView.swift in Sources */,
+				OBJ_283 /* CALayer+Geometry.swift in Sources */,
+				OBJ_284 /* CollectionAndTableDisplay.swift in Sources */,
+				OBJ_285 /* DegreesMinutesSecondsFormatter.swift in Sources */,
+				OBJ_286 /* Display.swift in Sources */,
+				OBJ_287 /* FormattedLabel.swift in Sources */,
+				OBJ_288 /* HidingImageView.swift in Sources */,
+				OBJ_289 /* HidingLabel.swift in Sources */,
+				OBJ_290 /* MissingCell.swift in Sources */,
+				OBJ_291 /* MultilineTextView.swift in Sources */,
+				OBJ_292 /* ProgressBusyView.swift in Sources */,
+				OBJ_293 /* SpinnerBusyView.swift in Sources */,
+				OBJ_294 /* TextResizingPinchGestureRecognizer.swift in Sources */,
+				OBJ_295 /* ToggleButtonStackView.swift in Sources */,
+				OBJ_296 /* ToggleStackView.swift in Sources */,
+				OBJ_297 /* UIBezierPath+Pie.swift in Sources */,
+				OBJ_298 /* UIView+Autolayout.swift in Sources */,
+				OBJ_299 /* UIView+Summoner.swift in Sources */,
+				OBJ_300 /* VideoPreview.swift in Sources */,
+				OBJ_301 /* VisualIndicatorBusyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_308 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_314 /* Genius.swift in Sources */,
+				OBJ_315 /* GeniusAccount.swift in Sources */,
+				OBJ_316 /* GeniusAnnotation.swift in Sources */,
+				OBJ_317 /* GeniusArtist.swift in Sources */,
+				OBJ_318 /* GeniusArtistSongs.swift in Sources */,
+				OBJ_319 /* GeniusClient.swift in Sources */,
+				OBJ_320 /* GeniusReferent.swift in Sources */,
+				OBJ_321 /* GeniusResponse.swift in Sources */,
+				OBJ_322 /* GeniusSearch.swift in Sources */,
+				OBJ_323 /* GeniusSong.swift in Sources */,
+				OBJ_324 /* GeniusWebPage.swift in Sources */,
+				OBJ_325 /* MockGenius.swift in Sources */,
+				OBJ_326 /* OtherTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_341 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_352 /* ClientTestBase.swift in Sources */,
+				OBJ_353 /* GeniusAccountTests.swift in Sources */,
+				OBJ_354 /* GeniusAnnotationTests.swift in Sources */,
+				OBJ_355 /* GeniusArtistSongsTest.swift in Sources */,
+				OBJ_356 /* GeniusArtistTests.swift in Sources */,
+				OBJ_357 /* GeniusClientTests.swift in Sources */,
+				OBJ_358 /* GeniusReferentTests.swift in Sources */,
+				OBJ_359 /* GeniusSearchTests.swift in Sources */,
+				OBJ_360 /* GeniusSongTests.swift in Sources */,
+				OBJ_361 /* GeniusTestBase.swift in Sources */,
+				OBJ_362 /* JSONTestBase.swift in Sources */,
+				OBJ_363 /* MockGeniusTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9660112E2037E26C0035FE96 /* PBXTargetDependency */ = {
+		OBJ_174 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 966011212037E26C0035FE96 /* SwiftGenius */;
-			targetProxy = 9660112D2037E26C0035FE96 /* PBXContainerItemProxy */;
+			target = "PromiseKit::PromiseKit" /* PromiseKit */;
+			targetProxy = E95DE1E626010506004BF7C4 /* PBXContainerItemProxy */;
+		};
+		OBJ_176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "OAuthSwift::OAuthSwift" /* OAuthSwift */;
+			targetProxy = E95DE1E726010506004BF7C4 /* PBXContainerItemProxy */;
+		};
+		OBJ_178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Stylobate::Stylobate" /* Stylobate */;
+			targetProxy = E95DE1E826010506004BF7C4 /* PBXContainerItemProxy */;
+		};
+		OBJ_332 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "JSONClient::JSONClient" /* JSONClient */;
+			targetProxy = E95DE1E526010506004BF7C4 /* PBXContainerItemProxy */;
+		};
+		OBJ_333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PromiseKit::PromiseKit" /* PromiseKit */;
+			targetProxy = E95DE1E926010506004BF7C4 /* PBXContainerItemProxy */;
+		};
+		OBJ_334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "OAuthSwift::OAuthSwift" /* OAuthSwift */;
+			targetProxy = E95DE1EA26010506004BF7C4 /* PBXContainerItemProxy */;
+		};
+		OBJ_335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Stylobate::Stylobate" /* Stylobate */;
+			targetProxy = E95DE1EB26010506004BF7C4 /* PBXContainerItemProxy */;
+		};
+		OBJ_346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftGenius::SwiftGeniusTests" /* SwiftGeniusTests */;
+			targetProxy = E95DE1FB26010508004BF7C4 /* PBXContainerItemProxy */;
+		};
+		OBJ_370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftGenius::SwiftGenius" /* SwiftGenius */;
+			targetProxy = E95DE1EC26010507004BF7C4 /* PBXContainerItemProxy */;
+		};
+		OBJ_371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "JSONClient::JSONClient" /* JSONClient */;
+			targetProxy = E95DE1ED26010507004BF7C4 /* PBXContainerItemProxy */;
+		};
+		OBJ_372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PromiseKit::PromiseKit" /* PromiseKit */;
+			targetProxy = E95DE1EE26010507004BF7C4 /* PBXContainerItemProxy */;
+		};
+		OBJ_373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "OAuthSwift::OAuthSwift" /* OAuthSwift */;
+			targetProxy = E95DE1EF26010507004BF7C4 /* PBXContainerItemProxy */;
+		};
+		OBJ_374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Stylobate::Stylobate" /* Stylobate */;
+			targetProxy = E95DE1F026010507004BF7C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		966011342037E26C0035FE96 /* Debug */ = {
+		OBJ_162 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftGenius.xcodeproj/JSONClient_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = JSONClient;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = JSONClient;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftGenius.xcodeproj/JSONClient_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = JSONClient;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = JSONClient;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftGenius.xcodeproj/OAuthSwift_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = OAuthSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = OAuthSwift;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftGenius.xcodeproj/OAuthSwift_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = OAuthSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = OAuthSwift;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftGenius.xcodeproj/PromiseKit_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PromiseKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = PromiseKit;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftGenius.xcodeproj/PromiseKit_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PromiseKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = PromiseKit;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftGenius.xcodeproj/Stylobate_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Stylobate;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Stylobate;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftGenius.xcodeproj/Stylobate_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Stylobate;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Stylobate;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
 					"DEBUG=1",
-					"$(inherited)",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		966011352037E26C0035FE96 /* Release */ = {
+		OBJ_305 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftGenius.xcodeproj/SwiftGenius_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftGenius;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftGenius;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftGenius.xcodeproj/SwiftGenius_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftGenius;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftGenius;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftGenius.xcodeproj/SwiftGeniusTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftGeniusTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftGenius.xcodeproj/SwiftGeniusTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftGeniusTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		966011372037E26C0035FE96 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3MY7LL9G36;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = SwiftGenius/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
-				PRODUCT_BUNDLE_IDENTIFIER = net.poikile.SwiftGenius;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		966011382037E26C0035FE96 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3MY7LL9G36;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = SwiftGenius/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
-				PRODUCT_BUNDLE_IDENTIFIER = net.poikile.SwiftGenius;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9660113A2037E26C0035FE96 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3MY7LL9G36;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = SwiftGeniusTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = net.poikile.SwiftGeniusTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9660113B2037E26C0035FE96 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3MY7LL9G36;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = SwiftGeniusTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = net.poikile.SwiftGeniusTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9660111C2037E26C0035FE96 /* Build configuration list for PBXProject "SwiftGenius" */ = {
+		OBJ_161 /* Build configuration list for PBXNativeTarget "JSONClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				966011342037E26C0035FE96 /* Debug */,
-				966011352037E26C0035FE96 /* Release */,
+				OBJ_162 /* Debug */,
+				OBJ_163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		966011362037E26C0035FE96 /* Build configuration list for PBXNativeTarget "SwiftGenius" */ = {
+		OBJ_181 /* Build configuration list for PBXNativeTarget "JSONClientPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				966011372037E26C0035FE96 /* Debug */,
-				966011382037E26C0035FE96 /* Release */,
+				OBJ_182 /* Debug */,
+				OBJ_183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		966011392037E26C0035FE96 /* Build configuration list for PBXNativeTarget "SwiftGeniusTests" */ = {
+		OBJ_186 /* Build configuration list for PBXNativeTarget "OAuthSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9660113A2037E26C0035FE96 /* Debug */,
-				9660113B2037E26C0035FE96 /* Release */,
+				OBJ_187 /* Debug */,
+				OBJ_188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "SwiftGenius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_222 /* Build configuration list for PBXNativeTarget "OAuthSwiftPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_223 /* Debug */,
+				OBJ_224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_227 /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_228 /* Debug */,
+				OBJ_229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_248 /* Build configuration list for PBXNativeTarget "PromiseKitPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_249 /* Debug */,
+				OBJ_250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_253 /* Build configuration list for PBXNativeTarget "Stylobate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_254 /* Debug */,
+				OBJ_255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_304 /* Build configuration list for PBXNativeTarget "StylobatePackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_305 /* Debug */,
+				OBJ_306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_310 /* Build configuration list for PBXNativeTarget "SwiftGenius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_311 /* Debug */,
+				OBJ_312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_337 /* Build configuration list for PBXNativeTarget "SwiftGeniusPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_338 /* Debug */,
+				OBJ_339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_343 /* Build configuration list for PBXAggregateTarget "SwiftGeniusPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_344 /* Debug */,
+				OBJ_345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_348 /* Build configuration list for PBXNativeTarget "SwiftGeniusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_349 /* Debug */,
+				OBJ_350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 966011192037E26C0035FE96 /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }
